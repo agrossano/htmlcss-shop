@@ -19,6 +19,7 @@
 }
 
 .colOne {
+  position: relative;
   display:inline-block;
   background-color: #eaeaea;
   width: 200px;
@@ -34,6 +35,7 @@
 }
 
 .colTwo {
+  position: relative;
   display:inline-block;
   background-color: #eaeaea;
   width: 200px;
@@ -51,6 +53,7 @@
 }
 
 .colOne-two {
+  position: relative;
   display:inline-block;
   background-color: #eaeaea;
   width: 200px;
@@ -60,6 +63,7 @@
 }
 
 .colTwo-two {
+  position: relative;
   display:inline-block;
   background-color: #eaeaea;
   width: 200px;
@@ -69,10 +73,18 @@
 }
 
 .colThree-two {
+  position: relative;
   display:inline-block;
   background-color: #eaeaea;
   width: 200px;
   height: 250px;
   margin-left: 0px;
 
+}
+
+.sconto {
+  background-color: red;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
