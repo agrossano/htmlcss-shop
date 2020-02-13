@@ -8,7 +8,7 @@
   position: relative;
 }
 
-.rowOne {
+.row {
   display:inline-block;
   position: relative;
   height: auto;
@@ -20,7 +20,7 @@
 
 
 
-.colOne {
+.col {
   position: relative;
   display:inline-block;
   background-color: #eeeef0;
@@ -36,25 +36,6 @@
   vertical-align: top;
 }
 
-.colTwo {
-  position: relative;
-  display:inline-block;
-  background-color: #eeeef0;
-  width: 200px;
-  height: 250px;
-  border: 5px;
-
-
-}
-
-.colThree {
-  position: relative;
-  display:inline-block;
-  background-color: #eeeef0;
-  width: 200px;
-  height: 250px;
-
-}
 
 
 .sconto {
@@ -89,7 +70,7 @@
 }
 
 
-.colOne:hover .heart, .colTwo:hover .heart, .colThree:hover .heart {
+.col:hover .heart {
   visibility: visible;
   opacity: 1;
 }
