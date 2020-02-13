@@ -4,38 +4,27 @@
   width: 620px;
   min-height: 500px;
   height: auto;
-  background-color: white;
+  background-color: #eaeaea;
   position: relative;
 }
 
 .rowOne {
   display:inline-block;
   position: relative;
+  background-color: #eaeaea;
   height: auto;
   margin: 0 auto;
   width: 100%;
-  margin-top: 5px;
-  margin-bottom:5px;
-  text-align: center;
-}
 
-.rowTwo {
-  display:inline-block;
-  position: relative;
-  height: auto;
-  margin: 0 auto;
-  width: 100%;
-  margin-bottom:5px;
-  text-align: center;
 }
 
 .colOne {
   position: relative;
   display:inline-block;
-  background-color: #eeeef0;
+  background-color: #eaeaea;
   width: 200px;
   height: 250px;
-
+  margin-left: 0px;
 
 }
 
@@ -48,18 +37,17 @@
 .colTwo {
   position: relative;
   display:inline-block;
-  background-color: #eeeef0;
+  background-color: #eaeaea;
   width: 200px;
   height: 250px;
-  border: 5px;
-
+  margin-left:0px;
 
 }
 
 .colThree {
   position: relative;
   display:inline-block;
-  background-color: #eeeef0;
+  background-color: #eaeaea;
   width: 200px;
   height: 250px;
 
@@ -68,48 +56,39 @@
 .colOne-two {
   position: relative;
   display:inline-block;
-  background-color: #eeeef0;
+  background-color: #eaeaea;
   width: 200px;
   height: 250px;
-  border: 5px;
-
+  margin-left: 0px;
 
 }
 
 .colTwo-two {
   position: relative;
   display:inline-block;
-  background-color: #eeeef0;
+  background-color: #eaeaea;
   width: 200px;
   height: 250px;
-
+  margin-left: 0px;
 
 }
 
 .colThree-two {
   position: relative;
   display:inline-block;
-  background-color: #eeeef0;
+  background-color: #eaeaea;
   width: 200px;
   height: 250px;
-
+  margin-left: 0px;
 
 }
 
 .sconto {
   position: absolute;
-  background-color: green;
-  top: 0px;
-  right: 0px;
-}
-
-.sconto5 {
-  position: absolute;
   background-color: red;
   top: 0px;
   right: 0px;
 }
-
 
 .heart {
   max-width:30px;
