@@ -45,6 +45,7 @@
 }
 
 .colThree {
+  position: relative;
   display:inline-block;
   background-color: #eaeaea;
   width: 200px;
@@ -106,7 +107,7 @@
 }
 
 
-.colOne:hover .heart{
+.colOne:hover .heart, .colTwo:hover .heart, .colThree:hover .heart, .colOne-two:hover .heart, .colTwo-two:hover .heart, .colThree-two:hover .heart {
   visibility: visible;
   opacity: 1;
 }
