@@ -83,8 +83,30 @@
 }
 
 .sconto {
-  background-color: red;
   position: absolute;
+  background-color: red;
   top: 0px;
   right: 0px;
+}
+
+.heart {
+  max-width:30px;
+  max-height:auto;
+}
+
+.heart {
+  position: absolute;
+  bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+.colOne:hover .heart{
+  visibility: visible;
+  opacity: 1;
 }
