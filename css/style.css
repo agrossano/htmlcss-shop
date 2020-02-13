@@ -2,7 +2,6 @@
   top: 160px;
   margin: auto;
   width: 620px;
-  min-height: 500px;
   height: auto;
   background-color: white;
   position: relative;
@@ -12,9 +11,8 @@
   display:inline-block;
   position: relative;
   height: auto;
-  margin: 0 auto;
   width: 100%;
-  margin-top: 5px;
+  margin-bottom: 5px;
   text-align: center;
 }
 
@@ -28,12 +26,6 @@
   height: 250px;
 
 
-}
-
-.tab {
-  max-width:100%;
-  max-height:100%;
-  vertical-align: top;
 }
 
 
